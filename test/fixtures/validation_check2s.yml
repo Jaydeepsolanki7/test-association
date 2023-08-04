@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  pass: 1
+  pass_confirmation: 1
+
+two:
+  pass: 1
+  pass_confirmation: 1

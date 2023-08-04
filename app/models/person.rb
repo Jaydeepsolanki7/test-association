@@ -5,7 +5,7 @@ class Person < ApplicationRecord
   # Person.last.pictures.create(name: "Mission Impossible 15")
 
   
-  # validates :name, presence: true, uniqueness:{case_sensitive: true}
+  validates :name, presence: true, uniqueness:{case_sensitive: true}
   # validates :term, acceptance: {message: 'must be checked'}
   # validates :email, confirmation: true
   # validates :email_confirmation, presence:true
